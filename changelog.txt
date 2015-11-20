@@ -1,2 +1,2 @@
 changelog 1
-changelog 2
+changelog from B1
