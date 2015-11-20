@@ -1,3 +1,8 @@
 changelog 1
 changelog from MASTER
 changelog from HOTFIX
+
+
+changelog from		USER		BRANCH
+----------------------------------------------------
+changelog from 		PRATIP.MISC	pm-br1
