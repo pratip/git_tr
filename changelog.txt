@@ -1,4 +1,3 @@
 changelog 1
 changelog from MASTER
 changelog from HOTFIX
-changelog from B1
