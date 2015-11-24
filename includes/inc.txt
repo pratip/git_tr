@@ -5,3 +5,4 @@ USER		BRANCH
 -----------------------
 PRATIP.MISC	pm-br3
 PRATIP.MISC	pm-br4
+PRATIP.MISC	pm-br5
