@@ -3,6 +3,7 @@ changelog from MASTER
 changelog from HOTFIX
 
 
-changelog from		USER		BRANCH
-----------------------------------------------------
-changelog from 		PRATIP.MISC	pm-br1
+USER		BRANCH
+------------------------
+PRATIP.MISC	pm-br1
+PRATIP.MISC	pm-br6
