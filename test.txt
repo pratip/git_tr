@@ -1,14 +1,14 @@
 Generative AI-Powered Chat Assistant for Document Intelligence
-Designed and deployed a full-stack AI chat application that enables natural language querying over large volumes of PDF documents stored in Azure Blob Storage, leveraging OpenAI embeddings and vector search for high-accuracy information retrieval.
+Built a full-stack AI chat application enabling natural language querying over enterprise PDF documents stored in Azure Blob Storage, delivering intelligent, context-aware answers using OpenAI’s GPT models.
 
-Implemented semantic search using OpenAI’s text-embedding models to convert user queries and document content into vector representations, enabling context-aware retrieval through cosine similarity and efficient indexing.
+Leveraged Azure Cognitive Search with OpenAI embeddings to implement scalable, high-performance vector search, enabling semantic retrieval of relevant document chunks based on user queries.
 
-Built a scalable backend pipeline in Python using Azure SDK’s SearchClient to dynamically scan and fetch relevant document chunks from blob storage, ensuring low-latency and high-relevance responses.
+Engineered a Python backend pipeline using Azure SDK and SearchClient to orchestrate document chunking, embedding generation, indexing, and retrieval, ensuring fast and accurate responses.
 
-Integrated OpenAI’s Chat Completion API to generate human-like, contextually rich responses based on retrieved content, with support for streaming outputs to enhance user experience.
+Integrated OpenAI’s Chat Completion API to generate conversational, human-like responses grounded in retrieved content, with support for streaming outputs to enhance interactivity.
 
-Developed a real-time chat interface using ReactJS and WebSockets, enabling chunk-by-chunk streaming of assistant responses, mimicking natural conversation flow and improving perceived responsiveness.
+Developed a real-time chat interface using ReactJS and WebSockets, enabling chunk-by-chunk streaming of assistant replies, mimicking natural conversation flow and improving user engagement.
 
-Optimized performance and scalability by decoupling vector search and response generation, allowing parallel processing and modular upgrades to embedding models or LLMs without affecting the frontend.
+Architected the system with modular components—embedding, indexing, retrieval, and response generation—allowing independent scaling and easy upgrades to individual services.
 
-Ensured modularity and maintainability through clean separation of concerns across components—embedding generation, vector search, document retrieval, and chat response—facilitating easy debugging and future enhancements.
+Ensured enterprise-grade scalability and maintainability by leveraging Azure-native services, enabling seamless integration, secure access control, and future extensibility.
